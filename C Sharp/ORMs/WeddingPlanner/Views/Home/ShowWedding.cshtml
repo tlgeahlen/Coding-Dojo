@@ -1,0 +1,28 @@
+@model MyViewModel
+
+<div class="m-3 d-flex justify-content-between">
+    <div>
+        <h1>Welcome, @Context.Session.GetString("Username")</h1>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="/weddings" class="btn btn-link">Home</a>
+        <p class="btn">&nbsp|&nbsp</p>
+        <a href="/weddings/new" class="btn btn-link">Plan a Wedding</a>
+        <p class="btn">&nbsp|&nbsp</p>
+        <form asp-action="Logout" asp-controller="Home" method="post">
+            <input type="submit" value="Logout" class="btn btn-link">
+        </form>
+    </div>
+</div>
+
+<h2>@Model.Wedding.WedOne & @Model.Wedding.WedTwo's Wedding!</h2>
+
+<p>Date: @Model.Wedding.WeddingDate.ToShortDateString()</p>
+<p>Address: @Model.Wedding.Address</p>
+
+<div class="border border-3">
+    @foreach (Association user in Model.Wedding.Attendees)
+    {
+        <p>@user.User.FirstName @user.User.LastName</p>
+    }
+</div>

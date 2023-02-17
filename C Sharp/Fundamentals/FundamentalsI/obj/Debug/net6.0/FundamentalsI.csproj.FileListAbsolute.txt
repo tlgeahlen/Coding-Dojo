@@ -1,0 +1,15 @@
+C:\Coding Dojo\C Sharp\FundamentalsI\bin\Debug\net6.0\FundamentalsI.exe
+C:\Coding Dojo\C Sharp\FundamentalsI\bin\Debug\net6.0\FundamentalsI.deps.json
+C:\Coding Dojo\C Sharp\FundamentalsI\bin\Debug\net6.0\FundamentalsI.runtimeconfig.json
+C:\Coding Dojo\C Sharp\FundamentalsI\bin\Debug\net6.0\FundamentalsI.dll
+C:\Coding Dojo\C Sharp\FundamentalsI\bin\Debug\net6.0\FundamentalsI.pdb
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.AssemblyReference.cache
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfoInputs.cache
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfo.cs
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.CoreCompileInputs.cache
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.dll
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\refint\FundamentalsI.dll
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.pdb
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\FundamentalsI.genruntimeconfig.cache
+C:\Coding Dojo\C Sharp\FundamentalsI\obj\Debug\net6.0\ref\FundamentalsI.dll

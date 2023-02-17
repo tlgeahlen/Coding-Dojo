@@ -1,0 +1,73 @@
+@model MyViewModel
+
+<div class="m-3 d-flex justify-content-between">
+    <div>
+        <h1>Welcome, @Context.Session.GetString("Username")</h1>
+    </div>
+    <div class="d-flex justify-content-center">
+        <p class="btn">Home |&nbsp</p>
+        <a href="/weddings/new" class="btn btn-link">Plan a Wedding</a>
+        <p class="btn">&nbsp|&nbsp</p>
+        <form asp-action="Logout" asp-controller="Home" method="post">
+            <input type="submit" value="Logout" class="btn btn-link">
+        </form>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Wedding Of</th>
+            <th>Date</th>
+            <th>Guest Count</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Wedding wedding in Model.AllWeddings)
+        {
+            <tr>
+                <td><a href="/weddings/@wedding.WeddingId">@wedding.WedOne & @wedding.WedTwo</a></td>
+                <td>@wedding.WeddingDate.ToShortDateString()</td>
+                <td>@wedding.Attendees.Count()</td>
+                @{
+                    if (wedding.CreatorId == Context.Session.GetInt32("uuid"))
+                    {
+                        <td>
+                            <form asp-action="DestroyWedding" asp-controller="Home" asp-route-WeddingId="@wedding.WeddingId" method="post">
+                                <input type="submit" value="Delete" class="btn btn-danger">
+                            </form>
+                        </td>
+                    } 
+                    else
+                    {
+                            bool rsvpd = false;
+                            foreach (Association assoc in wedding.Attendees)
+                            {
+                                if (assoc.UserId == Context.Session.GetInt32("uuid"))
+                                {
+                                    rsvpd = true;
+                                }
+                            }
+                            if (!rsvpd)
+                            {
+                                <td>
+                                    <form asp-action="RSVP" asp-controller="Home" asp-route-WeddingId="@wedding.WeddingId" method="post">
+                                        <input type="submit" value="RSVP" class="btn btn-primary">
+                                    </form>
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <form asp-action="UnRSVP" asp-controller="Home" asp-route-WeddingId="@wedding.WeddingId" method="post">
+                                        <input type="submit" value="UnRSVP" class="btn btn-secondary">
+                                    </form>
+                                </td>
+                            }
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>

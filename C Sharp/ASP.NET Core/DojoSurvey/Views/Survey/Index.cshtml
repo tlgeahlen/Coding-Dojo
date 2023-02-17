@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey!</title>
+</head>
+<body>
+    <h1>Please take 1-3 minutes to fill out this survey...</h1>
+    <form action="results" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name"/>
+        </div>
+        <div>
+            <label for="location">Location: </label>
+            <select name="location">
+                <option value="Nashville">Nashville</option>
+                <option value="Phoenix">Phoenix</option>
+            </select>
+        </div>
+        <div>
+            <label for="fav">Favorite Language:</label>
+            <select name="fav">
+                <option value="C#">C#</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment">
+                <textarea name="comment"></textarea>
+            </label>
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

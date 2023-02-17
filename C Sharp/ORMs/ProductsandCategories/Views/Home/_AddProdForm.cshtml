@@ -1,0 +1,11 @@
+@model MyViewModel
+
+<form asp-action="AddProduct" asp-controller="Home" asp-route-CategoryId="@Model.Assoc.CategoryId" method="post">
+    <select asp-for="@Model.Assoc.ProductId" name="ProductId">
+        @foreach (Product item in Model.NotProducts)
+        {
+            <option value="@item.ProductId">@item.Name</option>
+        }
+    </select>
+    <input type="submit" value="Add Product" class="btn btn-secondary">
+    </form>

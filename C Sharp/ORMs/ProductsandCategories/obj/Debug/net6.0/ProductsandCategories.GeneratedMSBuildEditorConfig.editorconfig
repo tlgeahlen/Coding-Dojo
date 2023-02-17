@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProductsandCategories
+build_property.RootNamespace = ProductsandCategories
+build_property.ProjectDir = c:\Coding Dojo\C Sharp\ORMs\ProductsandCategories\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Coding Dojo\C Sharp\ORMs\ProductsandCategories
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/ShowCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/ShowProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/_AddCatForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQWRkQ2F0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/_AddProdForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQWRkUHJvZEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/_AllCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQWxsQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/_AllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQWxsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/_NewCategoryForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTmV3Q2F0ZWdvcnlGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Home/_NewProductForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTmV3UHJvZHVjdEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Coding Dojo/C Sharp/ORMs/ProductsandCategories/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-11fbudfxkm

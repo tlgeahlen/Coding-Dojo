@@ -1,0 +1,10 @@
+@model List<Product>
+
+<h2 class="mb-5">All Products</h2>
+
+@foreach (Product product in Model)
+{
+    <div>
+    <a href="/products/@product.ProductId">@product.Name</a>
+    </div>
+}

@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Chef>
+
+<div class="d-flex justify-content-center">
+    <div class="d-flex gap-3">
+        <p>Chefs</p>
+        <p>---</p>
+        <a href="/dishes">Dishes</a>
+        <p>---</p>
+        <a href="/chefs/new">Add a Chef</a>
+        <p>---</p>
+        <a href="/dishes/new">Add a Dish</a>
+    </div>
+</div>
+
+<h2 class="text-center">List of current Chefs</h2>
+<hr/>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th># of Dishes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Chef chef in Model)
+        {
+            TimeSpan diff = (@DateTime.Now - @chef.DoB);
+            <tr>
+                <td>@chef.FirstName @chef.LastName</td>
+                <td>@String.Format("{0}", diff.Days/365)</td>
+                <td>@chef.DishesFromChef.Count()</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Dish
+
+<div class="d-flex justify-content-center">
+    <div class="d-flex gap-3">
+        <a href="/">Chefs</a>
+        <p>---</p>
+        <a href="/dishes">Dishes</a>
+        <p>---</p>
+        <a href="/chefs/new">Add a Chef</a>
+        <p>---</p>
+        <p>Add a Dish</p>
+    </div>
+</div>
+
+<h2 class="text-center">Add a Dish</h2>
+<hr/>
+
+<form asp-action="CreateDish" asp-controller="Home" method="post">
+    <div class="d-flex justify-content-between">
+        <div class="col-4 d-flex flex-column">
+            <span asp-validation-for="Name" class="text-danger"></span>
+            <label asp-for="Name">Name of Dish:</label>
+            <input asp-for="Name" class="form-control mb-3">
+            <span asp-validation-for="Calories" class="text-danger"></span>
+            <label asp-for="Calories"># of Calories:</label>
+            <input asp-for="Calories" class="form-control mb-3">
+        </div>
+        <div class="col-4 d-flex flex-column">
+            <label asp-for="ChefId" class="mb-2">Name of Chef:</label>
+            <select asp-for="ChefId" class="form-control">
+                @foreach (Chef chef in @ViewBag.Chefs)
+                {
+                    <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+                }
+            </select>
+        </div>
+        <div class="col-3 d-flex flex-column">
+            <label asp-for="Tastiness" class="mb-2"></label>
+            <select asp-for="Tastiness" class="form-control mb-5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <input type="submit" value="Add Dish" class="btn btn-success">
+        </div>
+    </div>
+
+</form>

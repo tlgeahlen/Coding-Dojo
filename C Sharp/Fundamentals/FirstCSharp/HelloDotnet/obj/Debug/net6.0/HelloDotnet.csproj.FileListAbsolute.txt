@@ -1,0 +1,15 @@
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\bin\Debug\net6.0\HelloDotnet.exe
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\bin\Debug\net6.0\HelloDotnet.deps.json
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\bin\Debug\net6.0\HelloDotnet.runtimeconfig.json
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\bin\Debug\net6.0\HelloDotnet.dll
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\bin\Debug\net6.0\HelloDotnet.pdb
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.csproj.AssemblyReference.cache
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.AssemblyInfoInputs.cache
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.AssemblyInfo.cs
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.csproj.CoreCompileInputs.cache
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.dll
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\refint\HelloDotnet.dll
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.pdb
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\HelloDotnet.genruntimeconfig.cache
+C:\Coding Dojo\C Sharp\FirstCSharp\HelloDotnet\obj\Debug\net6.0\ref\HelloDotnet.dll

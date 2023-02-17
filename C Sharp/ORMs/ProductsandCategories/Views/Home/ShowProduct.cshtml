@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model MyViewModel
+
+<h1 class="text-center mb-5">
+    <div class="d-flex justify-content-center">
+        <a href="/">Products</a>
+        <p>&nbsp|&nbsp</p>
+        <a href="/categories">Categories</a>
+    </div>
+</h1>
+
+<h2 class="text-center">@Model.Product.Name</h2>
+
+<div class="d-flex justify-content-between">
+    <div class="col-5">
+        <h3>Categories</h3>
+        @foreach (Association association in Model.Product.CategoriesOfProduct)
+        {
+            <p>@association.Category.Name</p>
+        }
+    </div>
+
+    <div class="d-flex flex-column col-5">
+        @await Html.PartialAsync("_AddCatForm", Model)
+    </div>
+</div>

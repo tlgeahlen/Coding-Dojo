@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.col {
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    background-color: teal;
+    color: white;
+}
+
+.col-2 {
+    padding: 10px;
+    margin: 5px;
+    flex: 2;
+    background-color: teal;
+    color: white;
+}
+
+.col-3 {
+    padding: 10px;
+    margin: 5px;
+    flex: 3;
+    background-color: teal;
+    color: white;
+}

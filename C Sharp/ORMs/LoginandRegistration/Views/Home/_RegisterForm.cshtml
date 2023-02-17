@@ -1,0 +1,32 @@
+@model User
+
+<div class="col-4">
+    <form asp-action="Create" asp-controller="Home" method="post">
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <div class="d-flex mb-3 justify-content-between">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName">
+        </div>
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <div class="d-flex mb-3 justify-content-between">
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName">
+        </div>
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <div class="d-flex mb-3 justify-content-between">
+            <label asp-for="Email"></label>
+            <input asp-for="Email">
+        </div>
+        <span asp-validation-for="Password" class="text-danger"></span>
+        <div class="d-flex mb-3 justify-content-between">
+            <label asp-for="Password"></label>
+            <input asp-for="Password">
+        </div>
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        <div class="d-flex mb-3 justify-content-between">
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword">
+        </div>
+        <input type="submit" value="Register" class="btn btn-success mt-3">
+    </form>
+</div>
